@@ -1,0 +1,60 @@
+package TDAs;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.sql.CallableStatement;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+
+public class SqlConection {
+	private static final SqlConection instance = new SqlConection();
+    private Connection conexion = null;
+    private ResultSet result = null;
+    private CallableStatement procedure= null;
+    public static String asisRest = null;
+    
+    private SqlConection(){};
+    
+    public static SqlConection getInstance(){
+        return instance;
+    }
+
+    public Connection getConnexion() {
+        return conexion;
+    }
+    
+    public ResultSet getResultSet(){
+        return result;
+    }
+    
+    public boolean iterarResultado() throws SQLException{
+        return result.next();
+    }
+    
+    public String getResultFila(int num) throws SQLException{
+        return result.getString(num);
+    }
+
+    public CallableStatement getProcedure() {
+        return procedure;
+    }
+
+    public String getAsisRest() {
+        return asisRest;
+    }
+    
+    public void setProcedure(String call) throws SQLException{
+        procedure = conexion.prepareCall(call);
+    }
+    
+    public void setConnexion(String user, String password) throws SQLException{
+        conexion = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/lineablanca", user, password);
+    }
+    
+    public void ejecutarQuery() throws SQLException{
+        result = procedure.executeQuery();
+    }
+
+}
