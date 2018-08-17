@@ -93,7 +93,7 @@ public class Login {
 	private class ClicAc implements EventHandler<ActionEvent> {
 	        @Override
 	        public void handle(ActionEvent event) {
-	            new ConsultaInventario(ventana);
+	            new MenuGerente(ventana);
 	        }
 	}
 }
