@@ -26,13 +26,13 @@ public class MenuVendedor {
 		VBox contb = new VBox();
 		HBox contl = new HBox();
 		
-		btnreg = new Button ("REGSITRAR CLIENTE");
-	
+		btnreg = new Button ("REGISTRAR CLIENTE");
+
 		btnregc = new Button ("REGISTRAR COTIZACION");
 		btnregc.setDisable(true);
 		btnregv = new Button ("REGISTRAR VENTA");
 		btnregv.setDisable(true);
-		btnge = new Button ("GENERAR DOCUMENTE");
+		btnge = new Button ("GENERAR DOCUMENTO");
 		btnge.setDisable(true);
 		btnsal = new Button ("SALIR");
 		

@@ -32,7 +32,7 @@ public class Login {
 			lblgeneral.setFont(new Font("Arial",50));
 			
 			Label lblusuario = new Label("USUARIO");
-			Label lblcontra = new Label ("CONTRASEÑA");
+			Label lblcontra = new Label ("CONTRASEÃ‘A");
 			
 			TextField txtusuario = new TextField();
 			TextField txtcontra = new TextField();

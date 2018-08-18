@@ -50,7 +50,7 @@ public class SqlConection {
     }
     
     public void setConnexion(String user, String password) throws SQLException{
-        conexion = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/lineablanca", user, password);
+        conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/LineaBlancaDB", user, password);
     }
     
     public void ejecutarQuery() throws SQLException{

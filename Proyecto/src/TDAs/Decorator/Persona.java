@@ -1,20 +1,19 @@
 package TDAs.Decorator;
 
-import java.util.Date;
+//import java.util.Date;
 
-public abstract class Persona {
+public class Persona {
 	protected String nombre, apellido, cedula;
-	protected Date fechaNacimiento;
-	
+
 	public Persona() {
 		
 	}
 
-	public Persona(String nombre, String apellido, String cedula, Date fechaNacimiento) {
+	public Persona(String nombre, String apellido, String cedula) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.cedula = cedula;
-		this.fechaNacimiento = fechaNacimiento;
+		//this.fechaNacimiento = fechaNacimiento;
 	}
 
 	public String getNombre() {
@@ -41,14 +40,6 @@ public abstract class Persona {
 		this.cedula = cedula;
 	}
 
-	public Date getFechaNacimiento() {
-		return fechaNacimiento;
-	}
-
-	public void setFechaNacimiento(Date fechaNacimiento) {
-		this.fechaNacimiento = fechaNacimiento;
-	}
-	
-	public abstract void crearPersona();
+	//public abstract void crearPersona();
 	
 }

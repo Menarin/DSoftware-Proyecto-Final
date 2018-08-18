@@ -40,7 +40,7 @@ public class ConsultaInventario {
 		table.setEditable(true);
 		
 		TableColumn NombrePro = new TableColumn("Nombre");
-        TableColumn DescripPro = new TableColumn("Descripción");
+        TableColumn DescripPro = new TableColumn("Descripcion");
         TableColumn PrecioPro = new TableColumn("Precio");
 		
 		

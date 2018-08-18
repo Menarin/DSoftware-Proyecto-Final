@@ -10,8 +10,8 @@ public class Usuario extends Persona {
 	
 	
 	
-	public Usuario(String userName, String password, String acceso) {
-		super();
+	public Usuario(String nombre, String apellido, String cedula,String userName, String password, String acceso) {
+		super(nombre,apellido,cedula);
 		this.userName = userName;
 		this.password = password;
 		this.acceso = acceso;
@@ -54,13 +54,6 @@ public class Usuario extends Persona {
 	}
 
 
-
-	@Override
-	public void crearPersona() { // implemetacion de metodo de patron Prototype
-		// TODO Auto-generated method stub
-		
-	}
-	
 	
 
 }

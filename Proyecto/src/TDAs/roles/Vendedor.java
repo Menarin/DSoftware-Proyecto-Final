@@ -1,12 +1,12 @@
 package TDAs.roles;
 
-import TDAs.Decorator.Persona;
-import TDAs.Decorator.PersonaDecorator;
 
-public class Vendedor extends PersonaDecorator{ //implementar metodos de consulta
+import TDAs.Decorator.Usuario;
 
-	public Vendedor(Persona p) {
-		super(p);
+public class Vendedor extends Usuario { //implementar metodos de consulta
+
+	public Vendedor(String nombre, String apellido, String cedula,String userName, String password, String acceso) {
+		super(nombre,apellido,cedula,userName,password,acceso);
 		// TODO Auto-generated constructor stub
 	}
 
