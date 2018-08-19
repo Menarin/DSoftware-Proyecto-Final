@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="mysql-connector-java-5.1.39-bin">
+    <archive path="C:/Users/user/Documents/DSoftware-Proyecto-Final/Proyecto/mysql-connector-java-5.1.39-bin.jar" />
+  </library>
+  <library name="ast (v2.4.0, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/ast-2.4.0/lib" />
+  </library>
+  <library name="bigdecimal (v1.3.2, ruby-2.4.4-p296) [gem]" />
+  <library name="did_you_mean (v1.1.0, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/did_you_mean-1.1.0/lib" />
+  </library>
+  <library name="io-console (v0.4.6, ruby-2.4.4-p296) [gem]" />
+  <library name="json (v2.0.4, ruby-2.4.4-p296) [gem]" />
+  <library name="minitest (v5.10.1, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/minitest-5.10.1/lib" />
+  </library>
+  <library name="net-telnet (v0.1.1, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/net-telnet-0.1.1/lib" />
+  </library>
+  <library name="openssl (v2.0.7, ruby-2.4.4-p296) [gem]" />
+  <library name="parallel (v1.12.1, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib" />
+  </library>
+  <library name="parser (v2.5.1.0, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/parser-2.5.1.0/lib" />
+  </library>
+  <library name="power_assert (v0.4.1, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/power_assert-0.4.1/lib" />
+  </library>
+  <library name="powerpack (v0.1.1, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/powerpack-0.1.1/lib" />
+  </library>
+  <library name="psych (v2.2.2, ruby-2.4.4-p296) [gem]" />
+  <library name="Python 3.6 (1) interpreter library">
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python36/DLLs" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python36/Lib" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python36" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python36/Lib/site-packages" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.1/system/python_stubs/-1968995184" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/python-skeletons" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/3.4" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/2and3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/third_party/3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/third_party/2and3" />
+  </library>
+  <library name="Python 3.6 interpreter library">
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python36-32/DLLs" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python36-32/Lib" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python36-32" />
+    <archive path="C:/Users/user/IdeaProjects/test/venv" />
+    <archive path="C:/Users/user/IdeaProjects/test/venv/Lib/site-packages" />
+    <archive path="C:/Users/user/IdeaProjects/test/venv/Lib/site-packages/setuptools-28.8.0-py3.6.egg" />
+    <archive path="C:/Users/user/IdeaProjects/test/venv/Lib/site-packages/pip-9.0.1-py3.6.egg" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.1/system/python_stubs/1723324539" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/python-skeletons" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/3.4" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/2and3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/third_party/3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/third_party/2and3" />
+  </library>
+  <library name="Python 3.7 (1) interpreter library">
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python37/DLLs" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python37/Lib" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python37" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python37/Lib/site-packages" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.1/system/python_stubs/-1839912465" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/python-skeletons" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/3.4" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/2and3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/third_party/3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/third_party/2and3" />
+  </library>
+  <library name="Python 3.7 interpreter library">
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python37-32/DLLs" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python37-32/Lib" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python37-32" />
+    <archive path="C:/Users/user/AppData/Local/Programs/Python/Python37-32/Lib/site-packages" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.1/system/python_stubs/-258859485" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/python-skeletons" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/3.4" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/stdlib/2and3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/third_party/3" />
+    <archive path="C:/Users/user/.IntelliJIdea2018.2/config/plugins/python/helpers/typeshed/third_party/2and3" />
+  </library>
+  <library name="rainbow (v3.0.0, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/rainbow-3.0.0/lib" />
+  </library>
+  <library name="rake (v12.0.0, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/rake-12.0.0/lib" />
+  </library>
+  <library name="rdoc (v5.0.0, ruby-2.4.4-p296) [gem]" />
+  <library name="rubocop (v0.56.0, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/rubocop-0.56.0/lib" />
+  </library>
+  <library name="ruby-progressbar (v1.9.0, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/ruby-progressbar-1.9.0/lib" />
+  </library>
+  <library name="test-unit (v3.2.3, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.3/lib" />
+  </library>
+  <library name="unicode-display_width (v1.3.3, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/unicode-display_width-1.3.3/lib" />
+  </library>
+  <library name="xmlrpc (v0.2.1, ruby-2.4.4-p296) [gem]">
+    <archive path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/xmlrpc-0.2.1/lib" />
+  </library>
+</eclipse-userlibraries>
+
