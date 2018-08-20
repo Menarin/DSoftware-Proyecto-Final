@@ -16,12 +16,21 @@ import java.util.ResourceBundle;
 
 import EmpresaLineaBlanca.Main;
 
-public class ConsultaController implements Initializable {
+public class AdministradorController implements Initializable {
 
     @FXML
     private StackPane loaderPane;
     @FXML
     private TextField txtNombre;
+    
+    
+    @FXML
+    private void showAgregarProducto(ActionEvent event) throws IOException {
+        loaderPane.getChildren().clear();
+        Node n = FXMLLoader.load(getClass().getResource("/application/AgregarProducto.fxml"));
+        loaderPane.getChildren().add(n);
+        StackPane.setAlignment(n, Pos.CENTER);
+    }
 
     @FXML
     private void showConsultarElemento(ActionEvent event) throws IOException {

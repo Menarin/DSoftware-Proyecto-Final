@@ -92,7 +92,7 @@ public class LoginController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         String user = "root";
-        String pwrd = "GEARTREAKMYSQL#1";
+        String pwrd = "";
         try{
             //Esta clase sirve para generar la conexion en SQL
             conexion.setConnexion(user, pwrd);

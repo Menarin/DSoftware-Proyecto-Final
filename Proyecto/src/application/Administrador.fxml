@@ -7,13 +7,13 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.StackPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="707.0" prefWidth="1029.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConsultaController">
+<AnchorPane id="AnchorPane" prefHeight="707.0" prefWidth="1029.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdministradorController">
     <children>
         <MenuBar fx:id="menuBar" layoutY="1.0" prefHeight="25.0" prefWidth="1067.0">
             <menus>
-                <Menu fx:id="menuAgregarUsuario" mnemonicParsing="false" text="Agregar ...">
+                <Menu fx:id="menuAgregarProducto" mnemonicParsing="false" text="Agregar ...">
                     <items>
-                        <MenuItem fx:id="menuUsuario" mnemonicParsing="false"  text="Usuario" />
+                        <MenuItem fx:id="menuProducto" mnemonicParsing="false" onAction="#showAgregarProducto" text="Producto" />
                     </items></Menu>
                 <Menu fx:id="menuConsultaSistema" mnemonicParsing="false" text="Consultar ..." >
                     <items>

@@ -15,8 +15,10 @@ CREATE TABLE `usuario_tb`(
 CREATE TABLE `producto_tb`(
   `id_producto`int NOT NULL AUTO_INCREMENT,
   `nombrep` varchar(50) NOT NULL,
+  `modelo` varchar(70) NOT NULL,
   `descrp` varchar(250) NOT NULL,
-  `precio` int NOT NULL,
+  `precio` float NOT NULL,
+  `cantidad` int NOT NULL,
   PRIMARY KEY (`id_producto`)
   );
   

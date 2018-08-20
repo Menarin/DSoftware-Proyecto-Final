@@ -12,3 +12,13 @@ BEGIN
 	insert into cliente_tb values (newID, newNombre, newApellido);
 END $$
 DELIMITER ;
+DELIMITER $$
+CREATE PROCEDURE `nuevoProducto` (IN newArt varchar(50), IN newModelo varchar(70), IN newCantidad int, IN newPrecio float, IN newDescrip varchar(250))
+
+BEGIN
+	
+	insert into producto_tb values ('',newArt,newDescrip,newPrecio,newModelo,newCantidad);
+
+END $$
+
+DELIMITER ;
