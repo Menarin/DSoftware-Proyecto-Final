@@ -4,5 +4,6 @@
 	<contentEntry url="file://$MODULE_DIR$"/>
 	<levels>
 		<level name="mysql-connector-java-5.1.39-bin" value="project"/>
+		<level name="jfoenix-9.0.6" value="project"/>
 	</levels>
 </component>

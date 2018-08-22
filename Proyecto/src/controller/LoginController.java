@@ -10,6 +10,9 @@ import java.util.logging.Logger;
 
 import TDAs.Decorator.Usuario;
 import TDAs.roles.Administrador;
+import com.jfoenix.controls.JFXButton;
+import com.jfoenix.controls.JFXPasswordField;
+import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -34,7 +37,7 @@ import TDAs.roles.SuperAdmin;
 public class LoginController implements Initializable {
 
     @FXML
-    private Label lblNada;
+    private Label mensaje;
     @FXML
     private TextField txtUsuario;
     @FXML
@@ -45,6 +48,10 @@ public class LoginController implements Initializable {
     private Label lblUsuario;
     @FXML
     private Label lblContrasenia;
+    @FXML
+    private JFXTextField username;
+    @FXML
+    private JFXPasswordField password;
 
     SqlConection conexion = SqlConection.getInstance();
     Usuario cliente;
@@ -62,26 +69,26 @@ public class LoginController implements Initializable {
 
     @FXML
     private void login(ActionEvent event){
-        String usr = txtUsuario.getText();
-        String pwrd = txtPassword.getText();
+        String usr = username.getText();
+        String pwrd = password.getText();
         String level = "";
         try{
             conexion.setProcedure("{Call login('" + usr + "','" + pwrd + "')}") ;
             conexion.ejecutarQuery();
             if (!conexion.iterarResultado())
-                lblNada.setText("Usuario o contraseña incorrecta");
+                mensaje.setText("Usuario o contraseña incorrecta");
             else{
                 level = conexion.getResultFila(6);
-                System.out.println(level);
+                //System.out.println(level);
                 if (level.equals("1")){
                     cliente = new Administrador(conexion.getResultFila(1), conexion.getResultFila(2), conexion.getResultFila(3), conexion.getResultFila(4), conexion.getResultFila(5), level);
-                    System.out.println(cliente.toString());
+                    //System.out.println(cliente.toString());
                     this.showMenu(event, "Administrador.fxml");
                 }else{
                     cliente = new Vendedor(conexion.getResultFila(1), conexion.getResultFila(2), conexion.getResultFila(3), conexion.getResultFila(4), conexion.getResultFila(5), level);
                     SqlConection.asisRest = conexion.getResultFila(1);
                     //System.out.println(asistente.toString());
-                    this.showMenu(event, "Vendedor.fxml");
+                    this.showMenu(event, "vendedorview.fxml");
                 }
             }
         }catch (Exception e){
@@ -92,7 +99,7 @@ public class LoginController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         String user = "root";
-        String pwrd = "";
+        String pwrd = "GEARTREAKMYSQL#1";
         try{
             //Esta clase sirve para generar la conexion en SQL
             conexion.setConnexion(user, pwrd);

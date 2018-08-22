@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <Pane depthTest="DISABLE" prefHeight="400.0" prefWidth="443.0" style="-fx-background-color: #328bd5;">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="19.0" layoutX="128.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/003-user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="19.0" layoutX="128.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/001-key.png" />
+               </image>
+            </ImageView>
+            <JFXTextField fx:id="username" focusColor="#dcd736" labelFloat="true" layoutX="164.0" layoutY="128.0" promptText="username" unFocusColor="#c2b6b6" />
+            <JFXPasswordField fx:id="password" focusColor="#dcd736" labelFloat="true" layoutX="165.0" layoutY="194.0" promptText="password" unFocusColor="#c3b7b7" />
+            <JFXButton fx:id="login" layoutX="155.0" layoutY="267.0" onAction="#login" prefHeight="25.0" prefWidth="161.0" style="-fx-background-color: #096bbd;" text="Login" textFill="#cfc7c7" />
+            <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="128.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../png/002-web-log-in.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="187.0" layoutY="34.0" text="Login" textFill="#c2b7b7">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="mensaje" layoutX="165.0" layoutY="235.0" textFill="#b54242" />
+         </children>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>

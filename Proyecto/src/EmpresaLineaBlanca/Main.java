@@ -1,15 +1,12 @@
 package EmpresaLineaBlanca;
 	
 
-import application.Cliente;
-import application.Login;
-import application.MenuGerente;
-import application.MenuVendedor;
 import javafx.application.Application;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 
@@ -23,12 +20,12 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         Main.stage = stage;
 
-        root = FXMLLoader.load(getClass().getResource("/application/Login.fxml"));
+        root = FXMLLoader.load(getClass().getResource("/application/log_in.fxml"));
 
         scene = new Scene(root);
 
         Main.stage.setScene(scene);
-        Main.stage.setTitle("Ingreso");
+        Main.stage.setTitle("Login");
         Main.stage.setResizable(false);
         Main.stage.show();
         
@@ -49,12 +46,12 @@ public class Main extends Application {
     }
 
     public static void logout() throws Exception{
-        root = FXMLLoader.load(Main.class.getResource("/application/Login.fxml"));
+        root = FXMLLoader.load(Main.class.getResource("/application/log_in.fxml"));
 
         scene = new Scene(root);
 
         Main.stage.setScene(scene);
-        Main.stage.setTitle("Ingreso");
+        Main.stage.setTitle("Login");
         Main.stage.centerOnScreen();
         Main.stage.show();
     }

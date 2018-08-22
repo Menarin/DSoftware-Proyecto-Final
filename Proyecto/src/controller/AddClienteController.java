@@ -11,6 +11,8 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
+
+import com.jfoenix.controls.JFXTextField;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -33,17 +35,16 @@ import TDAs.SqlConection;
  */
 public class AddClienteController implements Initializable {
     @FXML
-    private TextField txtNombre;
+    private JFXTextField txtnombre;
     @FXML
-    private TextField txtApellido;
+    private JFXTextField txtapellido;
     @FXML
-    private TextField txtCedula;
-
+    private JFXTextField txtcedula;
     @FXML
     private Button btnGuardar;
     @FXML
     private Button btnLimpiar;
-    @FXML
+
 
 
     SqlConection conexion = SqlConection.getInstance();
@@ -55,9 +56,9 @@ public class AddClienteController implements Initializable {
 
     @FXML
     private void guardarCliente(ActionEvent event) {
-        if (!txtNombre.getText().isEmpty() && !txtApellido.getText().isEmpty() && !txtCedula.getText().isEmpty() ) {
+        if (!txtnombre.getText().isEmpty() && !txtapellido.getText().isEmpty() && !txtcedula.getText().isEmpty() ) {
             try {
-                conexion.setProcedure("{call nuevoCliente('" + txtCedula.getText().toUpperCase() + "','" + txtNombre.getText().toUpperCase() + "','" + txtApellido.getText().toUpperCase() + "')}");
+                conexion.setProcedure("{call nuevoCliente('" + txtcedula.getText().toUpperCase() + "','" + txtnombre.getText().toUpperCase() + "','" + txtapellido.getText().toUpperCase() + "')}");
                 conexion.ejecutarQuery();
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Agregar nuevo Cliente");
@@ -83,9 +84,9 @@ public class AddClienteController implements Initializable {
     }
 
     private void limpiar(){
-        txtNombre.setText("");
-        txtApellido.setText("");
-        txtCedula.setText("");
+        txtnombre.setText("");
+        txtapellido.setText("");
+        txtcedula.setText("");
     }
 
 }
