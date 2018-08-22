@@ -2,58 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51027369-cf8e-402a-9fd8-f8e1dd5e62ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9c65f4d9-2c45-4461-9b26-e24399e9b501.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9c65f4d9-2c45-4461-9b26-e24399e9b501.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9c65f4d9-2c45-4461-9b26-e24399e9b501/storage_v2/_src_/schema/lineablancadb.wOVmEQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9c65f4d9-2c45-4461-9b26-e24399e9b501/storage_v2/_src_/schema/lineablancadb.wOVmEQ.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto.eml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto.eml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto.userlibraries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/LineaBlancaDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/LineaBlancaDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/PROCEDURES.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/PROCEDURES.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/EmpresaLineaBlanca/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/EmpresaLineaBlanca/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Administrador.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Administrador.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/AgregarCliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/AgregarCliente.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Cliente$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/ConsultaInventario$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/ConsultaInventario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/ConsultarElemento.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/ConsultarElemento.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Login$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Login$ClicAc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MenuElementos$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MenuElementos$ClicIv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MenuElementos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MenuGerente$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MenuGerente$ClicEl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MenuGerente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MenuVendedor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MenuVendedor$ClicCl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MenuVendedor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Vendedor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Vendedor.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/controller/AddClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/controller/AddClienteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/controller/ConsultaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/controller/VendedorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/controller/VendedorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmpresaLineaBlanca/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmpresaLineaBlanca/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Administrador.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Administrador.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/AgregarCliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/AgregarCliente.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Cliente.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/ConsultaInventario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ConsultarElemento.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ConsultarElemento.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Login.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/MenuElementos.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/MenuGerente.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/MenuVendedor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Vendedor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Vendedor.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AddClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ConsultaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AdministradorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/VendedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/VendedorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ConsultaController.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -202,19 +160,18 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2026640101">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SQL/PROCEDURES.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -280,84 +237,88 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="EmpresaLineaBlanca" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="TDAs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="TDAs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Decorator" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="TDAs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Prototype" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Proyecto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="TDAs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="roles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="SQL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpresaLineaBlanca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TDAs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TDAs" type="462c0819:PsiDirectoryNode" />
-              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TDAs" type="462c0819:PsiDirectoryNode" />
-              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TDAs" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="Proyecto" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -370,9 +331,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,7 +340,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534880685362" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/SceneBuilder/SceneBuilder.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="PLAIN_TEXT" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -458,6 +416,7 @@
       <workItem from="1534828992971" duration="1163000" />
       <workItem from="1534866779670" duration="11816000" />
       <workItem from="1534890463748" duration="915000" />
+      <workItem from="1534897016364" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="primer avance">
       <created>1534635283431</created>
@@ -470,7 +429,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70909000" />
+    <option name="totallyTimeSpent" value="71172000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -484,7 +443,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -569,12 +528,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/application/Login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/MenuVendedor.java" />
     <entry file="das://9c65f4d9-2c45-4461-9b26-e24399e9b501/schema/lineablancadb/table/usuario_tb">
@@ -625,41 +584,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/application/clienteview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/Login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/Login.java" />
     <entry file="file://$PROJECT_DIR$/src/application/Cliente.java" />
     <entry file="file://$PROJECT_DIR$/src/application/Vendedor.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/png/icons8-fridge-40.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/application/cotizarview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/styling.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -697,52 +656,52 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/cotizarview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="84" column="99" selection-start-line="84" selection-start-column="99" selection-end-line="84" selection-end-column="99" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/log_in.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/vendedorview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/AgregarCliente.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/clienteview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="53" selection-end-line="53" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/AgregarProducto2.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1412">
           <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL/LineaBlancaDB.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -753,28 +712,25 @@
     </entry>
     <entry file="dbSrc:///d1d07a95/9c65f4d9-2c45-4461-9b26-e24399e9b501/schema/lineablancadb/routine/nuevoproducto@(varchar(50),varchar(70),int(11),float,varchar(250)).sql" />
     <entry file="file://$PROJECT_DIR$/src/application/administradorview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="30" column="93" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/application/Administrador.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="75" column="102" selection-start-line="75" selection-start-column="102" selection-end-line="75" selection-end-column="102" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="85" column="52" lean-forward="true" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,27 +752,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/AgregarProducto.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
           <caret line="50" column="36" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="36" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/AddClienteController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,42 +774,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/ConsultarElemento.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/Administrador.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="75" column="115" selection-start-line="75" selection-start-column="115" selection-end-line="75" selection-end-column="115" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/AddProductoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL/PROCEDURES.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -940,7 +884,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.39-bin</last-edited>
+          <last-edited>jfoenix-9.0.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
