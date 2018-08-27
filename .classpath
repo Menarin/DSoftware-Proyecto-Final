@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="Proyecto/src"/>
 	<classpathentry kind="src" path="src/Controller"/>
 	<classpathentry kind="src" path="src/Model"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
