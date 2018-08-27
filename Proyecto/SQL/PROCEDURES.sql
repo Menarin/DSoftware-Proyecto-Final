@@ -23,3 +23,13 @@ BEGIN
 
 END $$
 DELIMITER ;
+
+DELIMITER $$
+
+CREATE PROCEDURE `nuevoUsuario` (IN idUsr varchar(10), IN nombre varchar(50), IN apellido varchar(50),IN usrname varchar(50), IN pass varchar(50), IN acces varchar(50))
+  BEGIN
+
+    insert into usuario_tb values (idUsr ,nombre,apellido,usrname,pass,acces);
+
+  END $$
+DELIMITER ;

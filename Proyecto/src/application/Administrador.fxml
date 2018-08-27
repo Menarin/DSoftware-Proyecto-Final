@@ -68,7 +68,7 @@
                     <graphic>
                         <ImageView fitHeight="102.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../../png/icons8-customer-80.png" />
+                                <Image url="@../png/customer.png" />
                             </image>
                         </ImageView>
                     </graphic></Button>
@@ -77,7 +77,7 @@
                     <graphic>
                         <ImageView fitHeight="76.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../../png/icons8-sell-80.png" />
+                                <Image url="@../png/sell.png" />
                             </image>
                         </ImageView>
                     </graphic></Button>
@@ -86,7 +86,7 @@
                     <graphic>
                         <ImageView fitHeight="78.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../../png/icons8-exit-80.png" />
+                                <Image url="@../png/exit.png" />
                             </image>
                         </ImageView>
                     </graphic></Button>

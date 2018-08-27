@@ -934,184 +934,211 @@
     <routine id="238" parent="3" name="nuevoProducto">
       <RoutineKind>procedure</RoutineKind>
     </routine>
-    <column id="239" parent="232" name="id_cliente">
+    <routine id="239" parent="3" name="nuevoUsuario">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="240" parent="232" name="id_cliente">
       <Position>1</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="232" name="nombrec">
+    <column id="241" parent="232" name="nombrec">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="232" name="apellidoc">
+    <column id="242" parent="232" name="apellidoc">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="242" parent="232" name="PRIMARY">
+    <key id="243" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_cliente</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="243" parent="233" name="id_local">
+    <column id="244" parent="233" name="id_local">
       <Position>1</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="244" parent="233" name="nombre_local">
+    <column id="245" parent="233" name="nombre_local">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="245" parent="233" name="direccion_local">
+    <column id="246" parent="233" name="direccion_local">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="233" name="estado_wifi">
+    <column id="247" parent="233" name="estado_wifi">
       <Position>4</Position>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="233" name="tipo">
+    <column id="248" parent="233" name="tipo">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="248" parent="233" name="PRIMARY">
+    <key id="249" parent="233" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_local</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="249" parent="234" name="id_producto">
+    <column id="250" parent="234" name="id_producto">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="250" parent="234" name="nombrep">
+    <column id="251" parent="234" name="nombrep">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="251" parent="234" name="modelo">
+    <column id="252" parent="234" name="modelo">
       <Position>3</Position>
       <DataType>varchar(70)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="252" parent="234" name="descrp">
+    <column id="253" parent="234" name="descrp">
       <Position>4</Position>
       <DataType>varchar(250)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="253" parent="234" name="precio">
+    <column id="254" parent="234" name="precio">
       <Position>5</Position>
       <DataType>float|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="254" parent="234" name="cantidad">
+    <column id="255" parent="234" name="cantidad">
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="255" parent="234" name="PRIMARY">
+    <key id="256" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_producto</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="256" parent="235" name="id_usuario">
+    <column id="257" parent="235" name="id_usuario">
       <Position>1</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="257" parent="235" name="nombre_usu">
+    <column id="258" parent="235" name="nombre_usu">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="258" parent="235" name="apellido_usu">
+    <column id="259" parent="235" name="apellido_usu">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="235" name="username">
+    <column id="260" parent="235" name="username">
       <Position>4</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="260" parent="235" name="contrasenia">
+    <column id="261" parent="235" name="contrasenia">
       <Position>5</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="261" parent="235" name="acceso">
+    <column id="262" parent="235" name="acceso">
       <Position>6</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="262" parent="235" name="PRIMARY">
+    <key id="263" parent="235" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id_usuario</ColNames>
       <Primary>1</Primary>
     </key>
-    <argument id="263" parent="236" name="us">
+    <argument id="264" parent="236" name="us">
       <Position>1</Position>
       <DataType>varchar(50)|0s</DataType>
     </argument>
-    <argument id="264" parent="236" name="password">
+    <argument id="265" parent="236" name="password">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
     </argument>
-    <argument id="265" parent="237" name="newID">
+    <argument id="266" parent="237" name="newID">
       <Position>1</Position>
       <DataType>varchar(10)|0s</DataType>
     </argument>
-    <argument id="266" parent="237" name="newNombre">
+    <argument id="267" parent="237" name="newNombre">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
     </argument>
-    <argument id="267" parent="237" name="newApellido">
+    <argument id="268" parent="237" name="newApellido">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
     </argument>
-    <argument id="268" parent="238" name="newArt">
+    <argument id="269" parent="238" name="newArt">
       <Position>1</Position>
       <DataType>varchar(50)|0s</DataType>
     </argument>
-    <argument id="269" parent="238" name="newModelo">
+    <argument id="270" parent="238" name="newModelo">
       <Position>2</Position>
       <DataType>varchar(70)|0s</DataType>
     </argument>
-    <argument id="270" parent="238" name="newDescrip">
+    <argument id="271" parent="238" name="newDescrip">
       <Position>3</Position>
       <DataType>varchar(250)|0s</DataType>
     </argument>
-    <argument id="271" parent="238" name="newPrecio">
+    <argument id="272" parent="238" name="newPrecio">
       <Position>4</Position>
       <DataType>float|0s</DataType>
     </argument>
-    <argument id="272" parent="238" name="newCantidad">
+    <argument id="273" parent="238" name="newCantidad">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
+    </argument>
+    <argument id="274" parent="239" name="idUsr">
+      <Position>1</Position>
+      <DataType>varchar(10)|0s</DataType>
+    </argument>
+    <argument id="275" parent="239" name="nombre">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </argument>
+    <argument id="276" parent="239" name="apellido">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </argument>
+    <argument id="277" parent="239" name="usrname">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </argument>
+    <argument id="278" parent="239" name="pass">
+      <Position>5</Position>
+      <DataType>varchar(50)|0s</DataType>
+    </argument>
+    <argument id="279" parent="239" name="acces">
+      <Position>6</Position>
+      <DataType>varchar(50)|0s</DataType>
     </argument>
   </database-model>
 </dataSource>

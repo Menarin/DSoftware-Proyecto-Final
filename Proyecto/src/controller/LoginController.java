@@ -84,11 +84,16 @@ public class LoginController implements Initializable {
                     cliente = new Administrador(conexion.getResultFila(1), conexion.getResultFila(2), conexion.getResultFila(3), conexion.getResultFila(4), conexion.getResultFila(5), level);
                     //System.out.println(cliente.toString());
                     this.showMenu(event, "Administrador.fxml");
-                }else{
+                }else if (level.equals("3")){
                     cliente = new Vendedor(conexion.getResultFila(1), conexion.getResultFila(2), conexion.getResultFila(3), conexion.getResultFila(4), conexion.getResultFila(5), level);
                     SqlConection.asisRest = conexion.getResultFila(1);
                     //System.out.println(asistente.toString());
                     this.showMenu(event, "vendedorview.fxml");
+                }else if (level.equals("0")){
+                    cliente = new SuperAdmin(conexion.getResultFila(1), conexion.getResultFila(2), conexion.getResultFila(3), conexion.getResultFila(4), conexion.getResultFila(5), level);
+                    SqlConection.asisRest = conexion.getResultFila(1);
+                    //System.out.println(asistente.toString());
+                    this.showMenu(event, "SuperAdminview.fxml");
                 }
             }
         }catch (Exception e){

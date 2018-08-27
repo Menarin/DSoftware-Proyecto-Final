@@ -1,61 +1,52 @@
 package controller;
 
-import com.jfoenix.controls.JFXButton;
+import EmpresaLineaBlanca.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.fxml.Initializable;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.StackPane;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import EmpresaLineaBlanca.Main;
-import javafx.stage.Modality;
-import javafx.stage.Stage;
+public class SuperAdminController {
 
-public class VendedorController implements Initializable {
+    public Button btnConsultas;
+    public Button btnLogout;
     @FXML
-    private JFXButton nuevocliente;
+    private Button btnUsuario;
     @FXML
+
     private StackPane loaderPane;
 
     @FXML
-    private Button btnCliente;
 
-    @FXML
-    private Button btnCotizar;
+    private TextField txtNombre;
 
-    @FXML
-    private Button btnVenta;
-
-    @FXML
-    private Button btnLogout;
 
 
     @FXML
 
     private void handleButtonClicks(javafx.event.ActionEvent mouseEvent) {
 
-        if ((mouseEvent.getSource() == btnCliente) | (mouseEvent.getSource() == nuevocliente)) {
+        if (mouseEvent.getSource() == btnUsuario) {
 
-            loadStage("/application/clienteview.fxml");
+            loadStage("/application/AgregarUsuario.fxml");
 
-        } else if (mouseEvent.getSource() == btnCotizar) {
-
-            loadStage("/application/cotizarview.fxml");
-
-        } else if (mouseEvent.getSource() == btnVenta) {
+        } else if (mouseEvent.getSource() == btnConsultas) {
 
             cerrarSesion(mouseEvent);
 
-        }else if (mouseEvent.getSource() == btnLogout) {
+        } else if (mouseEvent.getSource() == btnLogout) {
 
             cerrarSesion(mouseEvent);
 
@@ -85,53 +76,112 @@ public class VendedorController implements Initializable {
 
     }
 
+    @FXML
 
-    @FXML
-    private void showAgregarCliente(ActionEvent event) throws IOException {
+    private void showAgregarProducto(ActionEvent event) throws IOException {
+
         loaderPane.getChildren().clear();
-        Node n = FXMLLoader.load(getClass().getResource("/application/AgregarCliente.fxml"));
+
+        Node n = FXMLLoader.load(getClass().getResource("/application/AgregarProducto.fxml"));
+
         loaderPane.getChildren().add(n);
+
         StackPane.setAlignment(n, Pos.CENTER);
-    }
-/*
-    @FXML
-    private void showGenerarCotizacion(ActionEvent event) throws IOException {
-        loaderPane.getChildren().clear();
-        Node n = FXMLLoader.load(getClass().getResource("/FXML/GenerarCotizacion.fxml"));
-        loaderPane.getChildren().add(n);
-        StackPane.setAlignment(n, Pos.CENTER);
-    }
-*/
-/*
-    @FXML
-    private void showVenta(ActionEvent event) throws IOException {
-        loaderPane.getChildren().clear();
-        Node n = FXMLLoader.load(getClass().getResource("/FXML/Venta.fxml"));
-        loaderPane.getChildren().add(n);
-        StackPane.setAlignment(n, Pos.CENTER);
-    }
-*/
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+
     }
 
+
+
     @FXML
-    private void cerrarSesion(ActionEvent event) {
-        try{
-            Main.logout();
-        }catch(Exception e){
-            e.printStackTrace();
+
+    private void showConsultarElemento(ActionEvent event) throws IOException {
+
+        loaderPane.getChildren().clear();
+
+        Node n = FXMLLoader.load(getClass().getResource("/application/ConsultarElemento.fxml"));
+
+        loaderPane.getChildren().add(n);
+
+        StackPane.setAlignment(n, Pos.CENTER);
+
+    }
+
+    /*
+
+        @FXML
+
+        private void showGenerarCotizacion(ActionEvent event) throws IOException {
+
+            loaderPane.getChildren().clear();
+
+            Node n = FXMLLoader.load(getClass().getResource("/FXML/GenerarCotizacion.fxml"));
+
+            loaderPane.getChildren().add(n);
+
+            StackPane.setAlignment(n, Pos.CENTER);
+
         }
+
+    */
+
+/*
+
+    @FXML
+
+    private void showVenta(ActionEvent event) throws IOException {
+
+        loaderPane.getChildren().clear();
+
+        Node n = FXMLLoader.load(getClass().getResource("/FXML/Venta.fxml"));
+
+        loaderPane.getChildren().add(n);
+
+        StackPane.setAlignment(n, Pos.CENTER);
+
+    }
+
+*/
+
+
+    @FXML
+
+    private void cerrarSesion(ActionEvent event) {
+
+        try{
+
+            Main.logout();
+
+        }catch(Exception e){
+
+            e.printStackTrace();
+
+        }
+
     }
 
     @FXML
-    private void limpiarCotizacion(){
+
+    private void limpiar(ActionEvent event) {
+
+        this.limpiar();
+
+    }
+
+
+
+    private void limpiar(){
+
+        txtNombre.setText("");
+
+
 
     }
 
     @FXML
+
     private void cerrar(ActionEvent event) {
+
         System.exit(0);
+
     }
 }
