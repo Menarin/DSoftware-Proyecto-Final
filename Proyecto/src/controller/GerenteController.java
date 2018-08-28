@@ -1,46 +1,34 @@
 package controller;
 
+
+
 import EmpresaLineaBlanca.Main;
+import TDAs.Prototype.Articulo;
+import TDAs.SqlConection;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
+import javafx.scene.control.*;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
+import java.sql.SQLException;
+import java.util.ResourceBundle;
 
-public class SuperAdminController {
+
+public class GerenteController {
 
     @FXML
-    private Button btnConsultas;
+    private Button btnConsulta;
+
     @FXML
     private Button btnLogout;
-    @FXML
-    private Button btnUsuario;
 
 
-    @FXML
-
-    private void handleButtonClicks(javafx.event.ActionEvent mouseEvent) {
-
-        if (mouseEvent.getSource() == btnUsuario) {
-
-            loadStage("/application/AgregarUsuario.fxml");
-
-        } else if (mouseEvent.getSource() == btnConsultas) {
-
-            loadStage("/application/ConsultarElemento.fxml");
-
-        } else if (mouseEvent.getSource() == btnLogout) {
-
-            cerrarSesion(mouseEvent);
-
-        }
-
-    }
 
     private void loadStage(String fxml) {
 
@@ -65,19 +53,25 @@ public class SuperAdminController {
     }
 
     @FXML
+    private void handleButtonClicks(ActionEvent mouseEvent) {
+        if (mouseEvent.getSource() == btnConsulta) {
 
-    private void cerrarSesion(ActionEvent event) {
+            loadStage("/application/ConsultarElemento.fxml");
 
-        try{
+        } else if (mouseEvent.getSource() == btnLogout) {
 
-            Main.logout();
-
-        }catch(Exception e){
-
-            e.printStackTrace();
+            cerrarSesion(mouseEvent);
 
         }
+    }
 
+    @FXML
+    private void cerrarSesion(ActionEvent event) {
+        try{
+            Main.logout();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
     }
 
 }

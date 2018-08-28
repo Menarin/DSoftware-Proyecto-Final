@@ -1,7 +1,7 @@
 package TDAs.roles;
 
 
-import TDAs.Decorator.Usuario;
+import TDAs.Usuario;
 
 public class Vendedor extends Usuario { //implementar metodos de consulta
 

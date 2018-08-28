@@ -2,74 +2,81 @@ package controller;
 
 
 
+import EmpresaLineaBlanca.Main;
+import TDAs.Prototype.Articulo;
+import TDAs.SqlConection;
 import javafx.event.ActionEvent;
-
 import javafx.fxml.FXML;
-
 import javafx.fxml.FXMLLoader;
-
 import javafx.fxml.Initializable;
-
-import javafx.geometry.Pos;
-
-import javafx.scene.Node;
-
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
-
-import javafx.scene.layout.StackPane;
-
-
-
-import java.io.IOException;
-
-import java.net.URL;
-
-import java.util.ResourceBundle;
-
-
-
-import EmpresaLineaBlanca.Main;
+import javafx.scene.control.*;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+
+import java.io.IOException;
+import java.net.URL;
+import java.sql.SQLException;
+import java.util.ResourceBundle;
 
 
 public class AdministradorController implements Initializable {
 
-
-    public Button btnProducto;
-    public Button btnVenta;
-    public Button btnLogout;
     @FXML
+    private Button btnConsulta;
+    @FXML
+    private Button btnProducto;
+    @FXML
+    private Button btnLogout;
+    @FXML
+    private Label lbltxt;
+    @FXML
+    private TextField txtNombreProducto;
+    @FXML
+    private MenuItem menunombre;
+    @FXML
+    private MenuItem menudescripcion;
+    @FXML
+    private TextArea txtAreaNombre;
+    @FXML
+    private TextArea txtAreaPrecio;
+    @FXML
+    private TextArea txtAreaDescripcion;
 
-    private StackPane loaderPane;
+
+    SqlConection conexion = SqlConection.getInstance();
+    Articulo art;
 
     @FXML
+    private void consultarInventario(ActionEvent event) throws SQLException{
+        String produ = txtNombreProducto.getText();
+        //System.out.println(produ);
+        try{
+            if(lbltxt.getText()=="Nombre") {
+                conexion.setProcedure("{Call consultaProducto('" + produ + "')}") ;
+                conexion.ejecutarQuery();
+                conexion.iterarResultado();
 
-    private TextField txtNombre;
+                txtAreaNombre.setText(conexion.getResultFila(2));
+                txtAreaPrecio.setText(conexion.getResultFila(4));
+                txtAreaDescripcion.setText(conexion.getResultFila(3));
+            }else if(lbltxt.getText()=="Descripcion") {
+                conexion.setProcedure("{Call consultaProductoDescripcion('" + produ + "')}") ;
+                conexion.ejecutarQuery();
+                conexion.iterarResultado();
 
-
-
-    @FXML
-
-    private void handleButtonClicks(javafx.event.ActionEvent mouseEvent) {
-
-        if (mouseEvent.getSource() == btnProducto) {
-
-            loadStage("/application/AgregarProducto.fxml");
-
-        } else if (mouseEvent.getSource() == btnVenta) {
-
-            cerrarSesion(mouseEvent);
-
-        } else if (mouseEvent.getSource() == btnLogout) {
-
-            cerrarSesion(mouseEvent);
-
+                txtAreaNombre.setText(conexion.getResultFila(2));
+                txtAreaPrecio.setText(conexion.getResultFila(4));
+                txtAreaDescripcion.setText(conexion.getResultFila(3));
+            }
+        }catch (SQLException sql){
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Seleccion de productos");
+            alert.setHeaderText(null);
+            alert.setContentText("Error el producto no se encuentra disponible");
+            alert.showAndWait();
         }
-
     }
 
     private void loadStage(String fxml) {
@@ -95,121 +102,54 @@ public class AdministradorController implements Initializable {
     }
 
     @FXML
-
-    private void showAgregarProducto(ActionEvent event) throws IOException {
-
-        loaderPane.getChildren().clear();
-
-        Node n = FXMLLoader.load(getClass().getResource("/application/AgregarProducto.fxml"));
-
-        loaderPane.getChildren().add(n);
-
-        StackPane.setAlignment(n, Pos.CENTER);
-
-    }
+    private void handleButtonClicks(ActionEvent mouseEvent) {
+        if ((mouseEvent.getSource() == menunombre)) {
+            lbltxt.setText("Nombre");
 
 
+        } else if (mouseEvent.getSource() == menudescripcion) {
+            lbltxt.setText("Descripcion");
 
-    @FXML
+        }else if (mouseEvent.getSource() == btnProducto) {
 
-    private void showConsultarElemento(ActionEvent event) throws IOException {
+            loadStage("/application/AgregarProducto.fxml");
 
-        loaderPane.getChildren().clear();
+        } else if (mouseEvent.getSource() == btnConsulta) {
 
-        Node n = FXMLLoader.load(getClass().getResource("/application/ConsultarElemento.fxml"));
+            loadStage("/application/ConsultarElemento.fxml");
 
-        loaderPane.getChildren().add(n);
+        } else if (mouseEvent.getSource() == btnLogout) {
 
-        StackPane.setAlignment(n, Pos.CENTER);
-
-    }
-
-    /*
-
-        @FXML
-
-        private void showGenerarCotizacion(ActionEvent event) throws IOException {
-
-            loaderPane.getChildren().clear();
-
-            Node n = FXMLLoader.load(getClass().getResource("/FXML/GenerarCotizacion.fxml"));
-
-            loaderPane.getChildren().add(n);
-
-            StackPane.setAlignment(n, Pos.CENTER);
+            cerrarSesion(mouseEvent);
 
         }
-
-    */
-
-/*
-
-    @FXML
-
-    private void showVenta(ActionEvent event) throws IOException {
-
-        loaderPane.getChildren().clear();
-
-        Node n = FXMLLoader.load(getClass().getResource("/FXML/Venta.fxml"));
-
-        loaderPane.getChildren().add(n);
-
-        StackPane.setAlignment(n, Pos.CENTER);
-
     }
-
-*/
-
     @Override
-
     public void initialize(URL url, ResourceBundle rb) {
-
         // TODO
-
     }
 
-
-
     @FXML
-
     private void cerrarSesion(ActionEvent event) {
-
         try{
-
             Main.logout();
-
         }catch(Exception e){
-
             e.printStackTrace();
-
         }
-
     }
-
     @FXML
-
     private void limpiar(ActionEvent event) {
-
         this.limpiar();
-
     }
-
-
 
     private void limpiar(){
+        txtNombreProducto.setText("");
+        txtAreaNombre.setText("");
+        txtAreaDescripcion.setText("");
+        txtAreaPrecio.setText("");
 
-        txtNombre.setText("");
-
-
-
-    }
-
-    @FXML
-
-    private void cerrar(ActionEvent event) {
-
-        System.exit(0);
 
     }
+
 
 }

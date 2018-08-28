@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="943.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdministradorController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="943.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GerenteController">
 
     <children>
 
@@ -19,7 +19,7 @@
 
             <children>
 
-                <Label layoutX="130.0" layoutY="44.0" text="Administrador" textFill="WHITE">
+                <Label layoutX="130.0" layoutY="44.0" text="Gerente" textFill="WHITE">
 
                     <font>
 
@@ -52,8 +52,6 @@
 
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
 
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-
             </columnConstraints>
 
             <rowConstraints>
@@ -64,16 +62,7 @@
 
             <children>
 
-                <Button fx:id="btnProducto" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonClicks" prefHeight="181.0" prefWidth="242.0" stylesheets="@../css/styling.css" text="Producto">
-                    <graphic>
-                        <ImageView fitHeight="102.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
-                            <image>
-                                <Image url="@../png/producto.png" />
-                            </image>
-                        </ImageView>
-                    </graphic></Button>
-
-                <Button fx:id="btnConsulta" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonClicks" prefHeight="181.0" prefWidth="242.0" stylesheets="@../css/styling.css" text="Consulta" GridPane.columnIndex="1">
+                <Button fx:id="btnConsulta" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonClicks" prefHeight="181.0" prefWidth="242.0" stylesheets="@../css/styling.css" text="Consultas">
                     <graphic>
                         <ImageView fitHeight="76.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
                             <image>
@@ -82,7 +71,7 @@
                         </ImageView>
                     </graphic></Button>
 
-                <Button fx:id="btnLogout" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonClicks" prefHeight="181.0" prefWidth="242.0" stylesheets="@../css/styling.css" text="Logout" GridPane.columnIndex="2">
+                <Button fx:id="btnLogout" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonClicks" prefHeight="181.0" prefWidth="242.0" stylesheets="@../css/styling.css" text="Logout" GridPane.columnIndex="1">
                     <graphic>
                         <ImageView fitHeight="78.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
                             <image>

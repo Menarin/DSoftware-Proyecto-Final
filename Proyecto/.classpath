@@ -4,5 +4,9 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql-connector-java-5.1.39-bin"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jfoenix-9.0.6"/>
+	<classpathentry kind="var" path="MAVEN_REPOSITORY/org/junit/jupiter/junit-jupiter-api/5.3.0-RC1/junit-jupiter-api-5.3.0-RC1.jar"/>
+	<classpathentry kind="var" path="MAVEN_REPOSITORY/junit/junit/3.8.2/junit-3.8.2.jar"/>
+	<classpathentry kind="var" path="MAVEN_REPOSITORY/junit/junit/3.8.2/junit-3.8.2.jar"/>
+	<classpathentry kind="var" path="MAVEN_REPOSITORY/junit/junit/4.12/junit-4.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

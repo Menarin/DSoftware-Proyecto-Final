@@ -1,32 +1,15 @@
 package controller;
 
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-import java.nio.file.CopyOption;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
-import java.sql.SQLException;
-import java.util.ResourceBundle;
-
+import TDAs.SqlConection;
 import com.jfoenix.controls.JFXTextField;
-import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.stage.FileChooser;
-import javax.imageio.ImageIO;
-import TDAs.SqlConection;
+
+import java.net.URL;
+import java.sql.SQLException;
+import java.util.ResourceBundle;
 
 /**
  * FXML Controller class
@@ -40,11 +23,6 @@ public class AddClienteController implements Initializable {
     private JFXTextField txtapellido;
     @FXML
     private JFXTextField txtcedula;
-    @FXML
-    private Button btnGuardar;
-    @FXML
-    private Button btnLimpiar;
-
 
 
     SqlConection conexion = SqlConection.getInstance();

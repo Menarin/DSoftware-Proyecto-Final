@@ -1,24 +1,21 @@
 package controller;
 
+import EmpresaLineaBlanca.Main;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.geometry.Pos;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-
-import EmpresaLineaBlanca.Main;
-import javafx.stage.Modality;
-import javafx.stage.Stage;
 
 public class VendedorController implements Initializable {
     @FXML
@@ -85,32 +82,6 @@ public class VendedorController implements Initializable {
 
     }
 
-
-    @FXML
-    private void showAgregarCliente(ActionEvent event) throws IOException {
-        loaderPane.getChildren().clear();
-        Node n = FXMLLoader.load(getClass().getResource("/application/AgregarCliente.fxml"));
-        loaderPane.getChildren().add(n);
-        StackPane.setAlignment(n, Pos.CENTER);
-    }
-/*
-    @FXML
-    private void showGenerarCotizacion(ActionEvent event) throws IOException {
-        loaderPane.getChildren().clear();
-        Node n = FXMLLoader.load(getClass().getResource("/FXML/GenerarCotizacion.fxml"));
-        loaderPane.getChildren().add(n);
-        StackPane.setAlignment(n, Pos.CENTER);
-    }
-*/
-/*
-    @FXML
-    private void showVenta(ActionEvent event) throws IOException {
-        loaderPane.getChildren().clear();
-        Node n = FXMLLoader.load(getClass().getResource("/FXML/Venta.fxml"));
-        loaderPane.getChildren().add(n);
-        StackPane.setAlignment(n, Pos.CENTER);
-    }
-*/
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
@@ -128,10 +99,5 @@ public class VendedorController implements Initializable {
     @FXML
     private void limpiarCotizacion(){
 
-    }
-
-    @FXML
-    private void cerrar(ActionEvent event) {
-        System.exit(0);
     }
 }

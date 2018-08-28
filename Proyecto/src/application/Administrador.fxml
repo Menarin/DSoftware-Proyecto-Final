@@ -68,16 +68,16 @@
                     <graphic>
                         <ImageView fitHeight="102.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../png/customer.png" />
+                                <Image url="@../png/producto.png" />
                             </image>
                         </ImageView>
                     </graphic></Button>
 
-                <Button fx:id="btnVenta" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonClicks" prefHeight="181.0" prefWidth="242.0" stylesheets="@../css/styling.css" text="Venta" GridPane.columnIndex="1">
+                <Button fx:id="btnConsulta" contentDisplay="TOP" mnemonicParsing="false" onAction="#handleButtonClicks" prefHeight="181.0" prefWidth="242.0" stylesheets="@../css/styling.css" text="Consulta" GridPane.columnIndex="1">
                     <graphic>
                         <ImageView fitHeight="76.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../png/sell.png" />
+                                <Image url="@../png/consulta.png" />
                             </image>
                         </ImageView>
                     </graphic></Button>

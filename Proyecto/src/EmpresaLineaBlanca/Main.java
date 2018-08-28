@@ -28,16 +28,7 @@ public class Main extends Application {
         Main.stage.setTitle("Login");
         Main.stage.setResizable(false);
         Main.stage.show();
-        
-        /*primaryStage.setTitle("Proyecto DS");
-        primaryStage.setResizable(false);
-        
-        //Login lg = new Login(primaryStage);
-        //Cliente cl = new Cliente(primaryStage);
-        //MenuVendedor mv = new MenuVendedor (primaryStage);
-        MenuGerente mg = new MenuGerente (primaryStage);
-        primaryStage.show();
-        */
+
     }
 
  

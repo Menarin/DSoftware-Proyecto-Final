@@ -33,3 +33,18 @@ CREATE PROCEDURE `nuevoUsuario` (IN idUsr varchar(10), IN nombre varchar(50), IN
 
   END $$
 DELIMITER ;
+
+DELIMITER $$
+CREATE PROCEDURE `consultaProducto` (IN nombreproducto varchar(50))
+  BEGIN
+    SELECT * FROM producto_tb WHERE nombreproducto like concat('%',nombrep,'%');
+  END $$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE PROCEDURE `consultaProductoDescripcion`(IN descriproducto varchar(250))
+  BEGIN
+    SELECT * FROM producto_tb WHERE descriproducto like concat('%',descrp,'%');
+  END $$
+DELIMITER ;

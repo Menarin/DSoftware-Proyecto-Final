@@ -1,7 +1,6 @@
 package TDAs.roles;
 
-import TDAs.Decorator.Persona;
-import TDAs.Decorator.Usuario;
+import TDAs.Usuario;
 
 public class Gerente extends Usuario { //implementar metodos de consulta
 

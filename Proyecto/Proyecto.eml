@@ -2,6 +2,7 @@
 <component inheritJdk="true">
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="JUnit4" scope="TEST"/>
 	<levels>
 		<level name="mysql-connector-java-5.1.39-bin" value="project"/>
 		<level name="jfoenix-9.0.6" value="project"/>
